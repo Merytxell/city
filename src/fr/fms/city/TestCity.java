@@ -3,9 +3,10 @@ package fr.fms.city;
 public class TestCity {
 	
 	public static void main (String [] args){
-		City city1 = new City ("France","Toulouse",450000); 
-		System.out.println(city1);
-	
+		City city = new City ("France","Toulouse",450000); 
+		
+		city.display();
+		
 		
 		
 	}

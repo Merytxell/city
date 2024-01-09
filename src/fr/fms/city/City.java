@@ -15,6 +15,14 @@ public class City {
 		this.nbInhabitants= nbInhabitants;
 		
 	}
+	//methodes
+		
+		public void display() {
+			System.out.println("pays : " + this.country + "\n" + "ville :"  + this.city + "\n" + "nombre d'habitants : " + this.nbInhabitants); 
+			
+	}
+		
 }
+
 //ajouter première classe city avec nom de ville nb habitant et pays -ok
 //définir un constructeur - ok
