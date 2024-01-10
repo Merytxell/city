@@ -7,7 +7,7 @@ public class TestCity {
 	public static void main (String [] args){
 		
 		
-		City toulouse = new City ();
+		City toulouse = new City ("France", "Toulouse", 450000);
 		/*
 		 * City city1 = new City ("Espagne", "Murcia", 447000); City city2 = new City
 		 * ("Japon", "Nara", 360310);
@@ -21,7 +21,7 @@ public class TestCity {
 		toulouse.setInhabitants(-200);
 		
 		
-		System.out.println(toulouse.country + " " + toulouse.city + " " + toulouse.getNbInhabitants()); 
+		System.out.println(toulouse.getCountry() + " " + toulouse.getCity() + " " + toulouse.getNbInhabitants()); 
 		
 		
 		/*toulouse.nbInhabitants += 20000;	
