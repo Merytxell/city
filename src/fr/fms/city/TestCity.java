@@ -19,7 +19,7 @@ public class TestCity {
 		//toulouse.setCity ("Toulouse");
 		//toulouse.setInhabitants(-200);
 		City toulouse = new City ("France","Toulouse",450000);
-		toulouse.display();
+		System.out.println(toulouse);
 		
 		//System.out.println(toulouse.getCountry() + " " + toulouse.getCity() + " " + toulouse.getNbInhabitants()); 
 		
