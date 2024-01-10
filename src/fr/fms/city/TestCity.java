@@ -10,15 +10,16 @@ public class TestCity {
 		 * City city1 = new City ("Espagne", "Murcia", 447000); City city2 = new City
 		 * ("Japon", "Nara", 360310);
 		 */
-		City rabat = new City("","Rabat",577000);
+		//City rabat = new City("","Rabat",577000);
 	
-		 rabat.display();
-		 rabat.setCountry(" Maroc");
-		 rabat.display();
+		// rabat.display();
+		// rabat.setCountry(" Maroc");
+		// rabat.display();
 		//toulouse.setCountry("France");
 		//toulouse.setCity ("Toulouse");
 		//toulouse.setInhabitants(-200);
-		
+		City toulouse = new City ("France","Toulouse",450000);
+		toulouse.display();
 		
 		//System.out.println(toulouse.getCountry() + " " + toulouse.getCity() + " " + toulouse.getNbInhabitants()); 
 		

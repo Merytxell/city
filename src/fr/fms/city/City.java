@@ -48,7 +48,7 @@ public class City {
 		if (i <= 0) {
 			System.out.println("il est impossible qu'une ville dispose de moins de 0 habitants !");
 		}else {
-			this.nbInhabitants = Min_City_nbInhabitants;
+			this.nbInhabitants = i;
 		}
 		}
 		/*
@@ -58,9 +58,9 @@ public class City {
 
 	//methodes
 	
-	  public void display() { System.out.println("Pays :" + this.country + " " + "\t" + 
-			  				"Ville :" +this.city + " " + "\t" + 											
-			  				"nombre d'habitants : " + this.nbInhabitants + " " );
+	  public void display() { System.out.println("ville de  :" + this.city + " " + "\t" + 
+			  				"en :" +this.country + " " + "\t" + 											
+			  				"ayant pour nombre d'habitants : " + this.nbInhabitants + " " );
 	  
 	  }
 	 
