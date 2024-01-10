@@ -11,12 +11,9 @@ public class TestCity {
 		 * ("Japon", "Nara", 360310);
 		 */
 		City city = new City();
-		System.out.println(city.getCountry() + " " + "\t" +
-							city.getCity() + " " + "\t"    +
-							city.getNbInhabitants() + " " );
-		/*
-		 * city1.display(); city2.display();
-		 */
+	
+		 city.display();
+		 
 		//toulouse.setCountry("France");
 		//toulouse.setCity ("Toulouse");
 		//toulouse.setInhabitants(-200);
