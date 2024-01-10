@@ -16,8 +16,8 @@ public class TestCity {
 		/*
 		 * city1.display(); city2.display();
 		 */
-		toulouse.country = "France";
-		toulouse.city ="Toulouse";
+		toulouse.setCountry("France");
+		toulouse.setCity ("Toulouse");
 		toulouse.setInhabitants(-200);
 		
 		

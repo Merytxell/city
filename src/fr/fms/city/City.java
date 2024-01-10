@@ -3,15 +3,38 @@ package fr.fms.city;
 public class City {
 	
 	//atributs
-	public String country;
-	public String city;
+	private String country;
+	private String city;
 	private double nbInhabitants;
 	
 	public static final double Min_City_nbInhabitants = 450000;
 	
+	//constructeur encapsulation forte
+	public City (String country, String city, double nbInhabitants) {
+		setCountry(country);
+		setCity(city);
+		setNbInhabitants(nbInhabitants);
+	}
+
 	//accesseur
+
 	public double  getNbInhabitants (){
 		return nbInhabitants;
+	}
+	public String getCountry() {
+		return country;
+	}
+	public void setCountry(String country) {
+		this.country = country;
+	}
+	public String getCity() {
+		return city;
+	}
+	public void setCity(String city) {
+		this.city = city;
+	}
+	public void setNbInhabitants(double nbInhabitants) {
+		this.nbInhabitants = nbInhabitants;
 	}
 	//accesseur
 	public void setInhabitants (double i) {
