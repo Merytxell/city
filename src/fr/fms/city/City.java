@@ -5,15 +5,23 @@ public class City {
 	//atributs
 	public String country;
 	public String city;
-	public int nbInhabitants;
+	private double nbInhabitants;
 	
-	// constructeurs 
 	
-	public City (String country, String city, int nbInhabitants) {
-		this.country= country; 
-		this.city=city;
-		this.nbInhabitants= nbInhabitants;
+	
+	public double  getNbInhabitants (){
+		return nbInhabitants;
+	}
+	
+	public void setInhabitants (double i) {
+		this.nbInhabitants = i;
 		
+		
+	
+		/*
+		 * public City (String country, String city, int nbInhabitants) { this.country=
+		 * country; this.city=city; this.nbInhabitants= nbInhabitants;
+		 */
 	}
 
 	
@@ -27,4 +35,4 @@ public class City {
 
 
 //ajouter première classe city avec nom de ville nb habitant et pays -ok
-//définir un constructeur - ok
+//définir un constructeur - 

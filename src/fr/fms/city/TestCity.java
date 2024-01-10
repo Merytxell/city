@@ -3,17 +3,23 @@ package fr.fms.city;
 public class TestCity {
 	
 	public static void main (String [] args){
-		City toulouse = new City ("France","Toulouse",450000);
-		City city1 = new City ("Espagne", "Murcia", 447000);
-		City city2 = new City ("Japon", "Nara", 360310);
+		City toulouse = new City ();
+		/*
+		 * City city1 = new City ("Espagne", "Murcia", 447000); City city2 = new City
+		 * ("Japon", "Nara", 360310);
+		 */
 		
-		toulouse.display();
 		/*
 		 * city1.display(); city2.display();
 		 */
+		toulouse.country = "France";
+		toulouse.city ="Toulouse";
+		toulouse.setInhabitants(-200);
 		
-		toulouse.nbInhabitants += 20000;	
-		toulouse.display();
+		System.out.println(toulouse.country + " " + toulouse.city + " " + toulouse.getNbInhabitants()); 
+		
+		/*toulouse.nbInhabitants += 20000;	
+		toulouse.display();*/
 		
 	}
 }
