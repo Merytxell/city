@@ -15,11 +15,7 @@ public class City {
 		this.nbInhabitants= nbInhabitants;
 		
 	}
-	public City (int nbInhabitants) {
-		this.country= ""; 
-		this.city="";
-		this.nbInhabitants= nbInhabitants;
-	}
+
 	
 	//methodes
 		public void display() {
@@ -28,9 +24,6 @@ public class City {
 	}
 							
 }
-
-
-		
 
 
 //ajouter première classe city avec nom de ville nb habitant et pays -ok
