@@ -58,10 +58,13 @@ public class City {
 
 	//methodes
 	
-	  public void display() { System.out.println("ville de  :" + this.city + " " + "\t" + 
+	/*  public void display() { System.out.println("ville de  :" + this.city + " " + "\t" + 
 			  				"en :" +this.country + " " + "\t" + 											
-			  				"ayant pour nombre d'habitants : " + this.nbInhabitants + " " );
-	  
+			  				"ayant pour nombre d'habitants : " + this.nbInhabitants + " " );*/
+	  public String toString() {
+		  return "ville de Toulouse :" + getCity() + "\t" +
+				  "en " + getCountry() + "\t" +
+				  "ayant " + getNbInhabitants() + "habitants";
 	  }
 	 
 }
