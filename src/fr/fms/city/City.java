@@ -5,12 +5,12 @@ public class City {
 	//atributs
 	private String country;
 	private String city;
-	private double nbInhabitants;
+	private int nbInhabitants;
 
-	public static final double Min_City_nbInhabitants = 450000;
+	public static final int Min_City_nbInhabitants = 0;
 
 	//constructeur encapsulation forte
-	public City (String country, String city, double nbInhabitants) {
+	public City (String country, String city, int nbInhabitants) {
 		setCountry(country);
 		setCity(city);
 		setNbInhabitants(nbInhabitants);
@@ -19,43 +19,42 @@ public class City {
 	public City()	{
 		this("unknown","unknown",0);
 	}
-
+	
 	//accesseur
+	//getter
 
 	public double  getNbInhabitants (){
 		return nbInhabitants;
 	}
 	public String getCountry() {
 		return country;
-	}
-	public void setCountry(String country) {
-		this.country = country;
+	
 	}
 	public String getCity() {
 		return city;
 	}
+	//setter
+	public void setCountry(String country) {
+		this.country = country;
+	}
+	
 	public void setCity(String city) {
 		this.city = city;
-	}
-	public void setNbInhabitants(double nbInhabitants) {
-		this.nbInhabitants = nbInhabitants;
+	
 	}
 
-	public void setInhabitants (double i) {
+	public void setNbInhabitants (int i) {
 
 		if (i <= 0) {
 			System.out.println("il est impossible qu'une ville dispose de moins de 0 habitants !");
 		}else {
 			this.nbInhabitants = Min_City_nbInhabitants;
-
-
+		}
 		}
 		/*
 		 * public City (String country, String city, int nbInhabitants) { this.country=
 		 * country; this.city=city; this.nbInhabitants= nbInhabitants;
 		 */
-	}
-
 
 	//methodes
 	

@@ -5,15 +5,16 @@ public class TestCity {
 	public static void main (String [] args){
 		
 		
-		City toulouse = new City ("France", "Toulouse", 450000);
+		//City toulouse = new City ("France", "Toulouse", 450000);
 		/*
 		 * City city1 = new City ("Espagne", "Murcia", 447000); City city2 = new City
 		 * ("Japon", "Nara", 360310);
 		 */
-		City city = new City();
+		City rabat = new City("","Rabat",577000);
 	
-		 city.display();
-		 
+		 rabat.display();
+		 rabat.setCountry(" Maroc");
+		 rabat.display();
 		//toulouse.setCountry("France");
 		//toulouse.setCity ("Toulouse");
 		//toulouse.setInhabitants(-200);
