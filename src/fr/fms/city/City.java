@@ -62,7 +62,7 @@ public class City {
 			  				"en :" +this.country + " " + "\t" + 											
 			  				"ayant pour nombre d'habitants : " + this.nbInhabitants + " " );*/
 	  public String toString() {
-		  return "ville de Toulouse :" + getCity() + "\t" +
+		  return "ville de :" + getCity() + "\t" +
 				  "en " + getCountry() + "\t" +
 				  "ayant " + getNbInhabitants() + "habitants";
 	  }
