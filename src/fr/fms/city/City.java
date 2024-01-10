@@ -15,8 +15,12 @@ public class City {
 		setCity(city);
 		setNbInhabitants(nbInhabitants);
 	}
+	//ajout pour 1.3
+	public City()	{
+	this("unknown","unknown",0);
+}
 
-	//accesseur
+//accesseur
 
 	public double  getNbInhabitants (){
 		return nbInhabitants;

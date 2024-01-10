@@ -1,7 +1,5 @@
 package fr.fms.city;
 
-import java.util.Scanner;
-
 public class TestCity {
 	
 	public static void main (String [] args){
@@ -12,16 +10,19 @@ public class TestCity {
 		 * City city1 = new City ("Espagne", "Murcia", 447000); City city2 = new City
 		 * ("Japon", "Nara", 360310);
 		 */
-		
+		City city = new City();
+		System.out.println(city.getCountry() + " " + "\t" +
+							city.getCity() + " " + "\t"    +
+							city.getNbInhabitants() + " " );
 		/*
 		 * city1.display(); city2.display();
 		 */
-		toulouse.setCountry("France");
-		toulouse.setCity ("Toulouse");
-		toulouse.setInhabitants(-200);
+		//toulouse.setCountry("France");
+		//toulouse.setCity ("Toulouse");
+		//toulouse.setInhabitants(-200);
 		
 		
-		System.out.println(toulouse.getCountry() + " " + toulouse.getCity() + " " + toulouse.getNbInhabitants()); 
+		//System.out.println(toulouse.getCountry() + " " + toulouse.getCity() + " " + toulouse.getNbInhabitants()); 
 		
 		
 		/*toulouse.nbInhabitants += 20000;	
