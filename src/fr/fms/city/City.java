@@ -6,6 +6,7 @@ public class City {
 	private String country;
 	private String city;
 	private int nbInhabitants;
+	static int counter;
 
 	public static final int Min_City_nbInhabitants = 0;
 
@@ -13,13 +14,14 @@ public class City {
 	public City (String country, String city, int nbInhabitants) {
 		setCountry(country);
 		setCity(city);
+		counter++ ;
 		setNbInhabitants(nbInhabitants);
 	}
 	//ajout pour 1.3
 	public City()	{
 		this("unknown","unknown",0);
 	}
-	
+
 	//accesseur
 	//getter
 
@@ -28,7 +30,7 @@ public class City {
 	}
 	public String getCountry() {
 		return country;
-	
+
 	}
 	public String getCity() {
 		return city;
@@ -37,10 +39,10 @@ public class City {
 	public void setCountry(String country) {
 		this.country = country;
 	}
-	
+
 	public void setCity(String city) {
 		this.city = city;
-	
+
 	}
 
 	public void setNbInhabitants (int i) {
@@ -50,24 +52,28 @@ public class City {
 		}else {
 			this.nbInhabitants = i;
 		}
-		}
-		/*
-		 * public City (String country, String city, int nbInhabitants) { this.country=
-		 * country; this.city=city; this.nbInhabitants= nbInhabitants;
-		 */
+	}
+	/*
+	 * public City (String country, String city, int nbInhabitants) { this.country=
+	 * country; this.city=city; this.nbInhabitants= nbInhabitants;
+	 */
 
 	//methodes
-	
+
 	/*  public void display() { System.out.println("ville de  :" + this.city + " " + "\t" + 
 			  				"en :" +this.country + " " + "\t" + 											
 			  				"ayant pour nombre d'habitants : " + this.nbInhabitants + " " );*/
-	  public String toString() {
-		  return "ville de :" + getCity() + "\t" +
-				  "en " + getCountry() + "\t" +
-				  "ayant " + getNbInhabitants() + "habitants";
-	  }
-	 
-}
+	public String toString() {
+		return "ville de :" + getCity() + "\t" +
+				"en " + getCountry() + "\t" +
+				"ayant " + getNbInhabitants() + "habitants";
+	}
+
+	
+	}
+
+
+
 
 
 
