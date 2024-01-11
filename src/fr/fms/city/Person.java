@@ -42,10 +42,10 @@ public class Person {
 		
 	}
 	public String toString() {
-		return "Personne :" + getNom() + "\t" +
-				"prénom ;" + getPrenom() + "\t" +
-				"age " + getAge() + "\t" + 
-				"adresse" + getAdress() ;
+		return "Personne =" + getNom() + "," +
+				"prénom = " + getPrenom() + "," +
+				"age =  " + getAge() + "," + 
+				"adresse = " + getAdress() ;
 	}
 	} 
  
