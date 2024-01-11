@@ -13,10 +13,39 @@ public class Person {
 		this.prenom=prenom;
 		this.age=age;
 		this.adress=adress; 
+		
+		
 	}
-	public void display() {   System.out.println   ("nom : " + this.nom + " " + "\t" + 
-												   "prenom" + this.prenom + " " + "\t" + 
-													"age" + this.age + " " + "\t" + 
-												   	"adresse" + this.adress + " ");}
+	public String getNom() {
+		return nom;
+	}
+	public void setNom(String nom) {
+		this.nom = nom;
+	}
+	public String getPrenom() {
+		return prenom;
+	}
+	public void setPrenom(String prenom) {
+		this.prenom = prenom;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	public String getAdress() {
+		return adress;
+	}
+	public void setAdress(String adress) {
+		this.adress = adress;
+		
+	}
+	public String toString() {
+		return "Personne :" + getNom() + "\t" +
+				"prénom ;" + getPrenom() + "\t" +
+				"age " + getAge() + "\t" + 
+				"adresse" + getAdress() ;
+	}
 	} 
  
