@@ -42,10 +42,10 @@ public class Person {
 		
 	}
 	public String toString() {
-		return "Personne =" + getNom() + "," +
+		return "[Personne =" + getNom() + "," +
 				"prénom = " + getPrenom() + "," +
 				"age =  " + getAge() + "," + 
-				"adresse = " + getAdress() ;
+				"adresse = " + getAdress() + "]";
 	}
 	} 
  
