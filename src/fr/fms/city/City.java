@@ -25,7 +25,7 @@ public class City {
 	//accesseur
 	//getter
 
-	public double  getNbInhabitants (){
+	public int getNbInhabitants (){
 		return nbInhabitants;
 	}
 	public String getCountry() {

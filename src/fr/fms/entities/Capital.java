@@ -13,5 +13,18 @@ public class Capital extends City{
 		
 	}
 
+
+	public String getMonument() {
+		return monument;
+	}
+
+
+	public void setMonument(String monument) {
+		this.monument = monument;
+	}
+
+	public String toString() {
+		return this.getCountry() + ", " + this.getCity() + ", " + this.getNbInhabitants() + " d'habitants" + " monument : "+ this.monument ;
+	}
 }
 //classe fille
