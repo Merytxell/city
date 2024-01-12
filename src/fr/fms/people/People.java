@@ -10,7 +10,7 @@ public String countryOfResidence;
 public int nbInhabitants;
 
 
-public People (String lastname,String firstname, int age, String address,String bornCity, String countryOfResidence, int nbInhabitants) {
+public People (String lastname,String firstname,int age, String address,String bornCity, String countryOfResidence, int nbInhabitants) {
 	this.lastname=lastname;
 	this.firstname=firstname;
 	this.age=age;
