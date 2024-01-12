@@ -6,16 +6,15 @@ import fr.fms.person.Person;
 public class Employee extends Person{
 
 	public String enterprise;
-	public double salary;
+	public int salary;
 	
 	
-public Employee (String firstname, String lastname, int age, String address, CityStr city, String enterprise, double salary) {
+public Employee (String firstname, String lastname, int age, String address, CityStr city, String enterprise, int salary) {
 	super(firstname,lastname,age,address,city);
 	this.enterprise=enterprise;
 	this.salary=salary;
 	
-}
-
+} 
 
 
 public String getEnterprise() {
@@ -28,13 +27,25 @@ public void setEnterprise(String enterprise) {
 }
 
 
-public double getSalary() {
-	return salary;
-}
-
-
-public void setSalary(double salary) {
+public void setSalary(int salary) {
 	this.salary = salary;
 }
 
+
+public int getSalary() {
+	return salary;
 }
+public String toString() {
+	
+	"L'employé " + this.getFirstname() + this.getLastname() 
+	+ "de " + this.getAge() + "ans "
+	+ "résidant à" + this.getCity() 
+	+ this.getCountry() 
+	+ "de " + "habitants "
+	+ "avec pour monument" + this.getMonument 
+	+ "travaillant pour " + this.enterprise 
+	+ "a pour salaire " + this.salaire;
+ }
+
+}
+
