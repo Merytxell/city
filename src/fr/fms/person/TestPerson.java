@@ -4,7 +4,7 @@ public class TestPerson {
 	
 	public static void main (String[] args) {
 
-	Person manu = new Person ("Macron", "Manu", 43, "Elysée à Paris", new City ("Amiens"));
+	Person manu = new Person ("Macron", "Manu", 43, "Elysée à Paris", new CityStr ("Amiens"));
 	Person vladimir = new Person ("Poutine", "Vladimir", 68);
 	//Person biden = new Person ("Biden", "Joe", 0, "unknown");
 	

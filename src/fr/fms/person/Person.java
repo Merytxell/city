@@ -6,11 +6,11 @@ public class Person {
 	public String lastname;
 	public int age;
 	public String address; 
-	public City city;//passer city non plus en string mais en type directement
+	public CityStr city;//passer city non plus en string mais en type directement
 	
 	
 	
-	public Person (String firstname, String lastname, int age, String address, City city) {
+	public Person (String firstname, String lastname, int age, String address, CityStr city) {
 		this.firstname= firstname;
 		this.lastname =lastname;
 		this.age=age;
@@ -38,7 +38,7 @@ public class Person {
 	public String getLastname() {
 		return lastname;
 	}
-	public City getCity() {
+	public CityStr getCity() {
 		return city;
 	}
 	public int getAge() {

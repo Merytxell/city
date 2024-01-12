@@ -1,10 +1,10 @@
 package fr.fms.person;
 
-public class City {
+public class CityStr {
 	
 	    public String cityName;
 
-	    public City(String cityName) {
+	    public CityStr(String cityName) {
 	        this.cityName = cityName;
 	    }
 
