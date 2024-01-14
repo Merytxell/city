@@ -20,5 +20,15 @@ public class CityStr {
 	    public String toString() {
 	        return cityName;
 	    }
+
+		public String getMonument() {
+			
+			return getMonument();
+		}
+
+		public String getCountry() {
+
+			return getCountry();
+		}
 	}
 

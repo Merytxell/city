@@ -35,6 +35,10 @@ public class City {
 	public String getCity() {
 		return city;
 	}
+	
+	public String getMonument() {
+		return  getMonument();
+	}
 	//setter
 	public void setCountry(String country) {
 		this.country = country;
@@ -63,6 +67,8 @@ public class City {
 	/*  public void display() { System.out.println("ville de  :" + this.city + " " + "\t" + 
 			  				"en :" +this.country + " " + "\t" + 											
 			  				"ayant pour nombre d'habitants : " + this.nbInhabitants + " " );*/
+	
+	@Override // au-dessus d'une méthode, le compilateur vérifie que la méthode censé êtreremplacer existe réellement dans la classe parente
 	public String toString() {
 		return "ville de :" + getCity() + "\t" +
 				"en " + getCountry() + "\t" +

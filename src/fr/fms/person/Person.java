@@ -1,5 +1,7 @@
 package fr.fms.person;
 
+
+
 public class Person {
 
 	public String firstname;
@@ -10,12 +12,14 @@ public class Person {
 	
 	
 	
+	
 	public Person (String firstname, String lastname, int age, String address, CityStr city) {
 		this.firstname= firstname;
 		this.lastname =lastname;
 		this.age=age;
 		this.address=address; 
 		this.city=city;
+		
 	}
 		
 	public Person (String firstname, String lastname, int age) {
@@ -69,7 +73,7 @@ public class Person {
 				"prénom = " + getFirstname() + ", " +
 				"age =  " + getAge() + ", " + 
 				" adresse = " + getAddress() + " " +
-				"ville de naissance = " + this.city + "]";
+				"ville de naissance = " + this.city.toString() + "]";//modif ici pour afficher correctement le lieu de naissance
 		
 	}
 	} 
